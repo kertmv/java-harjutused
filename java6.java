@@ -31,13 +31,13 @@ public class java6 {
 
         scanner.close();
 
-        // Leiame kogusumma
+        
         int summa = 0;
         for (int arv : arvud) {
             summa += arv;
         }
 
-        // Leiame keskmise
+       
         double keskmine = arvud.isEmpty() ? 0 : (double) summa / arvud.size();
 
       
